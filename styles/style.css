@@ -150,9 +150,9 @@ td {
 }
 .submit{
     width: 8em;
-    height: 2em;
+    height: 5em;
     font-family: 'Quicksand', sans-serif;
-    color: white;
-    background-color: #040402;
+    color: rgb(6, 6, 6);
+    background-color: #f9f940;
     border: 2px solid white;
 }
