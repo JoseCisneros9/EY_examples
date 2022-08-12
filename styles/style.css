@@ -1,0 +1,158 @@
+
+body {
+    margin:0;
+    background: url(../images/R.jpg) ;
+    opacity: 300px;
+    background-size: cover;
+    background-color: transparent;
+    
+  }
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid #D5D9D9;
+    margin-top: 0;
+    padding-top: 0;
+}
+.header a{
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    color: #e9e231;
+    padding: 0 10px; 
+    height: inherit; 
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    margin-block-start: 3px;
+    margin-block-end: 3px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.logo img{
+    margin: 0px 0px 0px 5px ;
+    display: flex;
+    padding: 0;
+    border: 0;
+}
+.header ol{
+    list-style: none; 
+    display: flex; /*Sirve para poner la lista de elementos de la lista horizontalmente*/ 
+    height: inherit;
+}
+.header ol li{
+    height: inherit;
+}
+.link:hover {
+    color: white;
+    background-color: #00438D;
+    border: 0.5px solid #D5D9D9;
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+/*menu*/
+.menu{
+    height: inherit;
+}
+.menu li{
+    display: inline; /*para poner la lista en horizontal*/
+}
+/*Footer*/
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-top: 1px solid #D5D9D9;
+  margin-top: 90px;
+  padding: 1em;
+  left: 400px;
+
+}
+a:link{
+text-decoration: none;
+}
+.social{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+.footer-fb{
+background-image: url('../images/fb.ico');
+}
+.footer-twitter{
+background-image: url('../images/twitter.ico');
+}
+
+.footer-github{
+background-image: url('../images/github.ico');
+}
+
+/*End Footer*/
+form{
+    text-align: center;
+}
+.tab{
+    display: inline-block;
+
+}
+/*Tablaaaaaa Estilos*/
+.tabla{
+border-collapse: collapse; /*Esta propiedad hace que parezca mas una tabla*/
+font-family: 'Quicksand', sans-serif;
+}
+table tr th{
+    border: 1px solid #D5D9D9;
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: #6cf8ff;
+}
+/* Para el estilo de las nuevas celdas */
+td {
+    border: 1px solid #D5D9D9;
+    width: 100px;
+    height: 25px;
+}
+.caja{
+    display: block;
+}
+.caja label{
+    font-family: 'Quicksand', sans-serif;
+}
+.caja input{
+    width: 200px;
+    height: 2em;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;  
+}
+.submit{
+    width: 8em;
+    height: 2em;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: #040402;
+    border: 2px solid white;
+}

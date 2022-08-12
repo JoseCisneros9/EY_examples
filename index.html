@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/ico" href="images/icon_page.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CRUD">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" rel="stylesheet">
+    <title>Crud EY</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <figure class="logo">
+          <img src="images/icon_page.png" height="60" right= "50px" alt="Logo de la pagina" />
+        </figure>
+          <nav class="menu">
+            <ol>
+              <li>
+                <a class="link" href="https://www.youtube.com/c/JosehpElUnico">Bienvenidos Carlos y David</a>
+              </li>
+              <li>
+                <a class="link" href="https://www.ey.com/es_mx">EY</a>
+              </li>
+            </ol>
+          </nav>
+      </header>
+    <br/>
+            <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+              <div class="tab">
+                <table class="tabla" id="tabla">
+                  <thead>
+                    <tr> 
+                      <th>id</th> 
+                      <th>Name</th>
+                      <th>Description</th>
+                      <th>Price</th>
+                      <th>Age</th>
+                      <th>Opcions</th>
+                    </tr>
+                  </thead>
+                    <tbody>
+      
+                    </tbody>
+                </table>
+              </div>
+              <br/>
+              <br/>
+              <div class="caja">
+                <label for="id">Id</label> <input type="text" id="no" placeholder="Write now" required>
+                <label for="name">nombre</label> <input type="text" id="name" placeholder="Write now" required>
+                <label for="description">description <input type="text" id="description" placeholder="Write now" required>
+                  <label for="price">Price <input type="text" id="price" placeholder="Write now" required>
+                    <label for="age">Age <input type="text" id="age" placeholder="Write now" required>
+              </div>
+              <br/>
+              <input class="submit" type="submit" value="Escribir">
+              </form>
+        <br/>
+        <br/>
+        </div>
+   <footer class="footer" id="footer">
+      <a rel="noopener" target="_blank" class="social footer-fb" href="https://www.facebook.com/JosehpElUnico/"></a>
+      <a rel="noopener" target="_blank" class="social footer-twitter" href="https://twitter.com/YSJosehp"></a>
+      <a rel="noopener" target="_blank" class="social footer-github" href="https://github.com/JoseCisneros9"></a>
+      
+   </footer>
+</body>
+<script type="text/javascript" src="js/crud.js"></script>
+</html>
